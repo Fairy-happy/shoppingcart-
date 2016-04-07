@@ -18,6 +18,7 @@
     [super viewDidLoad];
     UIBarButtonItem *right = [[UIBarButtonItem alloc]initWithTitle:@"done" style:UIBarButtonItemStyleDone target:self action:@selector(pushTo:)];
     self.navigationItem.rightBarButtonItem = right;
+    self.view.backgroundColor = [UIColor grayColor];
     // Do any additional setup after loading the view from its nib.
 }
 
