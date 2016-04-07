@@ -6,3 +6,5 @@
   效果图如下
   <br>
 ![](https://github.com/Fairy-happy/shoppingcart-/blob/master/1.png)
+<br>
+![](https://github.com/Fairy-happy/shoppingcart-/blob/master/2.png)
