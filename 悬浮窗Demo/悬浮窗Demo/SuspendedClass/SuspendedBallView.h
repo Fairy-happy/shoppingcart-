@@ -44,7 +44,7 @@ typedef NS_ENUM(NSInteger,SuspendedBallLocation) {
 
 @property (weak, nonatomic) id <SuspendedBallDelegate> delegate;
 //response
-+ (void)showBallViewWithImages:(NSArray *)images andTarget:(id)delegate;
+//+ (void)showBallViewWithImages:(NSArray *)images andTarget:(id)delegate;
 + (SuspendedBallView *)createView;
 @end
 

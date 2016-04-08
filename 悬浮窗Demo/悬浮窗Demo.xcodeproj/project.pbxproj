@@ -19,7 +19,6 @@
 		2CF1E07F1CB63CB900F65336 /* SuspendedBallLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E0771CB63CB900F65336 /* SuspendedBallLayer.m */; };
 		2CF1E0801CB63CB900F65336 /* SuspendedBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E0791CB63CB900F65336 /* SuspendedBallView.m */; };
 		2CF1E0811CB63CB900F65336 /* SuspendedConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E07B1CB63CB900F65336 /* SuspendedConfig.m */; };
-		2CF1E0821CB63CB900F65336 /* WZShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E07D1CB63CB900F65336 /* WZShowAlertView.m */; };
 		2CF1E0861CB63CD300F65336 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E0841CB63CD300F65336 /* MainViewController.m */; };
 		2CF1E0871CB63CD300F65336 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1E0851CB63CD300F65336 /* MainViewController.xib */; };
 		2CF1E08B1CB63CDE00F65336 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E0891CB63CDE00F65336 /* SecViewController.m */; };
@@ -69,8 +68,6 @@
 		2CF1E0791CB63CB900F65336 /* SuspendedBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendedBallView.m; sourceTree = "<group>"; };
 		2CF1E07A1CB63CB900F65336 /* SuspendedConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspendedConfig.h; sourceTree = "<group>"; };
 		2CF1E07B1CB63CB900F65336 /* SuspendedConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspendedConfig.m; sourceTree = "<group>"; };
-		2CF1E07C1CB63CB900F65336 /* WZShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZShowAlertView.h; sourceTree = "<group>"; };
-		2CF1E07D1CB63CB900F65336 /* WZShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZShowAlertView.m; sourceTree = "<group>"; };
 		2CF1E0831CB63CD300F65336 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		2CF1E0841CB63CD300F65336 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		2CF1E0851CB63CD300F65336 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -185,8 +182,6 @@
 				2CF1E0791CB63CB900F65336 /* SuspendedBallView.m */,
 				2CF1E07A1CB63CB900F65336 /* SuspendedConfig.h */,
 				2CF1E07B1CB63CB900F65336 /* SuspendedConfig.m */,
-				2CF1E07C1CB63CB900F65336 /* WZShowAlertView.h */,
-				2CF1E07D1CB63CB900F65336 /* WZShowAlertView.m */,
 			);
 			path = SuspendedClass;
 			sourceTree = "<group>";
@@ -324,7 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CF1E0471CB63C9F00F65336 /* ViewController.m in Sources */,
-				2CF1E0821CB63CB900F65336 /* WZShowAlertView.m in Sources */,
 				2CF1E0801CB63CB900F65336 /* SuspendedBallView.m in Sources */,
 				2CF1E07F1CB63CB900F65336 /* SuspendedBallLayer.m in Sources */,
 				2CF1E0861CB63CD300F65336 /* MainViewController.m in Sources */,
@@ -558,6 +552,7 @@
 				2CF1E06B1CB63CA000F65336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CF1E06C1CB63CA000F65336 /* Build configuration list for PBXNativeTarget "悬浮窗DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +561,7 @@
 				2CF1E06E1CB63CA000F65336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CF1E06F1CB63CA000F65336 /* Build configuration list for PBXNativeTarget "悬浮窗DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +570,7 @@
 				2CF1E0711CB63CA000F65336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

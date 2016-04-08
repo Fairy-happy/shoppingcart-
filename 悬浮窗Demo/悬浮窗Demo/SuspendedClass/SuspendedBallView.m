@@ -24,6 +24,7 @@
 @interface SuspendedBallView(){
     SuspendedBallLayer *ballLayer;
     MCFireworksView    *fireViews;
+    UILabel * label;
 }
 @property (assign, nonatomic) CGFloat stopValue;
 @end
@@ -40,13 +41,13 @@
     return ballView;
 }
 
-+ (void)showBallViewWithImages:(NSArray *)images andTarget:(id)delegate;
-{
-    [SuspendedBallView createView].imagesMenu = images;
-    [SuspendedBallView createView].delegate = delegate;
-    [[UIApplication sharedApplication].keyWindow addSubview:[SuspendedBallView createView]];
-    [[UIApplication sharedApplication].keyWindow bringSubviewToFront:[SuspendedBallView createView]];
-}
+//+ (void)showBallViewWithImages:(NSArray *)images andTarget:(id)delegate;
+//{
+//    [SuspendedBallView createView].imagesMenu = images;
+//    [SuspendedBallView createView].delegate = delegate;
+//    [[UIApplication sharedApplication].keyWindow addSubview:[SuspendedBallView createView]];
+//    [[UIApplication sharedApplication].keyWindow bringSubviewToFront:[SuspendedBallView createView]];
+//}
 
 #pragma mark - private response
 
@@ -58,6 +59,12 @@
     //[self setWave];
 //    self.layer.cornerRadius = cornerRadio;
 //    self.layer.masksToBounds = YES;
+    label = [[UILabel alloc]initWithFrame:CGRectMake(15, 0, 15, 15)];
+    [self.ballView addSubview:label];
+    //label.backgroundColor = [UIColor redColor];
+    label.text = @"10";
+    label.font = [UIFont systemFontOfSize:10];
+    label.textAlignment = NSTextAlignmentRight;
     
     self.currentCenter = [SuspendedConfig achiveSuspendedBallCenter];
     [self calculateShowCenter:self.currentCenter];
